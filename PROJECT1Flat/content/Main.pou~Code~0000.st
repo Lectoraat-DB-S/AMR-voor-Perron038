@@ -3,6 +3,7 @@ CASE PROGRAM_STATE OF
         OUT1 := 1;
         OUT8 := 0;
         PROGRAM_STATE := 1;
+        
     1 : 
     OUT2 := 1;
     OUT1 := 0;
