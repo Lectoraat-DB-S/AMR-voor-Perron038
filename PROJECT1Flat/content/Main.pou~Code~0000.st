@@ -2,8 +2,7 @@ CASE PROGRAM_STATE OF
     0 :      (* Value can be a single value *)
         OUT1 := 1;
         OUT8 := 0;
-        PROGRAM_STATE := 1;
-ajsldkjf        
+        PROGRAM_STATE := 1;       
     1 : 
     OUT2 := 1;
     OUT1 := 0;

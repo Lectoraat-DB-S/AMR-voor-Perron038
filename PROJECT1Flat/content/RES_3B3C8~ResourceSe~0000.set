@@ -1,5 +1,5 @@
 { Type('AXCF2152') }
-RESOURCE RES_3B3C8C2815564038AC1CFE26DD946B5F
+RESOURCE IEC 61131-3
 { DeviceProfileWorksheet('DeviceProfile', Id := '0c3dc170-86ee-41f4-b978-29be0a4dc1ca') }
 { DeviceProfile(
     Name := 'RES_3B3C8C2815564038AC1CFE26DD946B5F',
@@ -9,6 +9,14 @@ RESOURCE RES_3B3C8C2815564038AC1CFE26DD946B5F
     [
     ],
     CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '33554424',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
     CommunicationType := 'TcpIp',
     CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
     DownloadFiles := 
