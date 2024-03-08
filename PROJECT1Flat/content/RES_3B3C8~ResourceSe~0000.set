@@ -1,0 +1,24 @@
+{ Type('AXCF2152') }
+RESOURCE IEC 61131-3
+{ DeviceProfileWorksheet('DeviceProfile', Id := '0c3dc170-86ee-41f4-b978-29be0a4dc1ca') }
+{ DeviceProfile(
+    Name := 'RES_3B3C8C2815564038AC1CFE26DD946B5F',
+    Parent := ( Name := 'AXCF2152', Version := '2022.9.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Cyclic100 () { Watchdog(T#100ms), Id('d61de715-4e5a-46e1-b3ac-e88a9a8d3058') };
+
+PROGRAM MainInstance WITH Cyclic100 : Main { Id('6c4edf50-9cac-4ec8-abeb-b7c888db6842') };
+
+END_RESOURCE
