@@ -1,6 +1,17 @@
 { CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
+VAR_CONFIG
+    MainInstance.OUT1 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('02ca2df7-207f-4162-8304-77a3575214c4')};
+    MainInstance.OUT2 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('751fd9cf-6110-4fb5-bf24-2e7407e9e0a4')};
+    MainInstance.OUT3 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1d647fd3-1582-4147-95a6-f4f00d6e8052')};
+    MainInstance.OUT4 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5aa21672-62e5-4ca8-b102-e42599dbb161')};
+    MainInstance.OUT5 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d0d892dc-0bc1-402e-8fc9-4314414edd3d')};
+    MainInstance.OUT6 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('540aa851-9016-423d-8578-935f98a406e5')};
+    MainInstance.OUT7 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ceabea61-39ef-40aa-b640-9069af6706bc')};
+    MainInstance.OUT8 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('315c524d-43d8-41fe-a779-0bb04abedcde')};
+END_VAR
+
 VAR_GLOBAL
     PND_S1_PLC_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('1e43779a-6294-4348-b875-59ba855c02e6')}; (*Higher level PLC in RUN*)
     PND_S1_VALID_DATA_CYCLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('30175a82-42a8-4438-a330-2320dac8b837')}; (*Connection to Profinet-Controller*)

@@ -18,6 +18,12 @@
         <folder name="AXLF_Master">
           <file name="Arp.Io.Axl.ControllerComponent.compmeta" id="AXLF_Mast~Arp.Io.Axl~0000.compmeta" />
           <file name="Arp.Io.Axl.libmeta" id="AXLF_Mast~Arp.Io.Axl~0001.libmeta" />
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="3d0365af-5f51-4def-b62a-c135f79c87f8.ds" id="AXL_F_DI8~3d0365af-5~0000.ds" />
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="8b0e4e76-276f-4d3a-a230-60468d416f6e.ds" id="AXL_F_AI2~8b0e4e76-2~0000.ds" />
+          </folder>
         </folder>
         <folder name="EIP_Master">
           <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0000.libmeta" />
@@ -63,6 +69,9 @@
         <file name="Metadata.meta" id="Main.pou~Metadata~0000.meta" />
         <file name="Variables.var" id="Main.pou~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0000.usermeta" />
+        <file name="Variables.var.locres" id="Main.pou~Variables.v~0000.locres" />
+        <file name="User.locres" id="Main.pou~User~0000.locres" />
+        <file name="Code.st" id="Main.pou~Code~0000.st" />
       </folder>
     </folder>
   </folder>

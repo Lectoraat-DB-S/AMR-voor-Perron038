@@ -174,7 +174,7 @@
     <InstVal xPath="//Layer7[@uID='L7_3']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/Generic:FormattedTypeName" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/4328b7a8-1b17-42fd-9b2a-818a02bc85fd</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaNodeName']/Current" Type="Ade.Fdcml.Core.StringAscii">axc-f-2152-1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaNodeName']/Current" Type="Ade.Fdcml.Core.StringAscii">profinetdevice</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaServerCertificateType']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.ServerCertificate.SelfSigned</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSubjectAlternativeNameType_1']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.ServerCertificate.SelfSigned.SubjectAlternativeName[1].NotSet</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSubjectAlternativeNameDnsName_1']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
@@ -407,8 +407,8 @@
     <InstVal xPath="//Layer3-4[@uID='L34_1']/[/InstanceObjList/Obj[@uID='ip204' type='IP:SecondarySubnetMask']" Type="Ade.Fdcml.Core.Ipv4"></InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/[/InstanceObjList/Obj[@uID='ip205' type='IP:SecondaryIndividualSettings']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.1.10</InstVal>
-    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">axc-f-2152-1</InstVal>
-    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D323135322D31]</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">profinetdevice</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;70726F66696E6574646576696365]</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip103' type='IP:DefaultGateway']" Type="Ade.Fdcml.Core.Ipv4"></InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip104' type='IP:SubnetMask']" Type="Ade.Fdcml.Core.Ipv4">255.255.255.0</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip105' type='IP:IndividualSettings']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
