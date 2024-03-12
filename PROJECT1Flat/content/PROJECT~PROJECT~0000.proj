@@ -156,13 +156,13 @@
          <TypeName>AXL F DI8/1 DO8/1 1H</TypeName>
          <ParentIndex>0</ParentIndex>
       </Folder>
-      <Folder Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H">
+      <Folder Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1">
          <Id>87d70e2e-8950-4313-86f9-2da34dbb86b3</Id>
          <FolderType>DeviceInstance</FolderType>
          <AllowReordering>true</AllowReordering>
-         <InstanceId>8b0e4e76-276f-4d3a-a230-60468d416f6e</InstanceId>
-         <TypeId>{726CD190-9550-4506-8743-2F3069222867}</TypeId>
-         <TypeName>AXL F AI2 AO2 1H</TypeName>
+         <InstanceId>df768e97-0738-4fbc-85b9-ed7291239a13</InstanceId>
+         <TypeId>{E239C1FB-9529-4083-B973-B071FA8BE025}</TypeId>
+         <TypeName>AXL F DI8/1 DO8/1 1H</TypeName>
          <TypeRevision>02/1.00</TypeRevision>
          <ParentIndex>1</ParentIndex>
       </Folder>
@@ -315,7 +315,7 @@
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H\8b0e4e76-276f-4d3a-a230-60468d416f6e.ds">
+      <DeviceInstanceDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\df768e97-0738-4fbc-85b9-ed7291239a13.ds">
          <Id>4204ed7e-de4d-4674-871e-368067d512bc</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
@@ -346,7 +346,7 @@
          <Visible>False</Visible>
          <ParentIndex>1</ParentIndex>
       </PropertiesDocument>
-      <PropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H\8b0e4e76-276f-4d3a-a230-60468d416f6e.properties">
+      <PropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\df768e97-0738-4fbc-85b9-ed7291239a13.properties">
          <Id>a0fbc432-011f-4c70-ac62-ead04258d2d6</Id>
          <Visible>False</Visible>
          <ParentIndex>1</ParentIndex>
@@ -393,7 +393,7 @@
          <Visible>False</Visible>
          <ParentIndex>0</ParentIndex>
       </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H\8b0e4e76-276f-4d3a-a230-60468d416f6e.iprop">
+      <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\df768e97-0738-4fbc-85b9-ed7291239a13.iprop">
          <Id>e13a6dc9-49eb-4cb0-b549-8e655f912fd6</Id>
          <Visible>False</Visible>
          <ParentIndex>0</ParentIndex>
@@ -452,7 +452,7 @@
          <Visible>false</Visible>
          <ParentIndex>4</ParentIndex>
       </DataListReference>
-      <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H\DataList.dlr4pd">
+      <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\DataList.dlr4pd">
          <Id>62d7371d-0713-49fa-954c-03a666dd8f90</Id>
          <Visible>false</Visible>
          <ParentIndex>4</ParentIndex>
@@ -648,7 +648,7 @@
          <ProtocolName>AXLF</ProtocolName>
          <ParentIndex>2</ParentIndex>
       </ParameterDocument>
-      <ParameterDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_AI2_AO2_1H\8b0e4e76-276f-4d3a-a230-60468d416f6e.par">
+      <ParameterDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\df768e97-0738-4fbc-85b9-ed7291239a13.par">
          <Id>6bf02331-44f9-4fc6-bd43-d0d532a55c1b</Id>
          <Visible>False</Visible>
          <ProtocolName>AXLF</ProtocolName>

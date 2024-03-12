@@ -13,4 +13,10 @@ VAR_GLOBAL
     OUT6 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('05f31fef-cf27-4d79-b7a0-a723bc4cf41e')};
     OUT7 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('e216e0cd-00c0-423d-8aac-62419bf5d449')};
     OUT8 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('e2eb22cb-6525-45ac-8705-c675bf818350')};
+    OutArray : BYTE { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('25a655d1-e7f2-4392-ac1e-3464926371d1')};
+END_VAR
+
+VAR
+    ZeroToTwoFiveFive : BYTE { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('99dc17b5-075d-4795-b68c-3ee6c462828b')};
+    TempIntByte : INT { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('d8951eb0-06b3-4df2-8783-11fe9f56cf03')};
 END_VAR

@@ -10,6 +10,7 @@ VAR_CONFIG
     MainInstance.OUT6 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('540aa851-9016-423d-8578-935f98a406e5')};
     MainInstance.OUT7 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ceabea61-39ef-40aa-b640-9069af6706bc')};
     MainInstance.OUT8 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('315c524d-43d8-41fe-a779-0bb04abedcde')};
+    MainInstance.OutArray : BYTE { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('2d8a2e9c-4149-43d8-97c1-cf4008e79667')};
 END_VAR
 
 VAR_GLOBAL

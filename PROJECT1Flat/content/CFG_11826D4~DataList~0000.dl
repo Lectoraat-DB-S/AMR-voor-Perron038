@@ -493,88 +493,256 @@
         <OutputFrameId>1</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="05e564c8-3662-4e43-af0e-f0f76d9d4c19">
+    <Datum Uuid="1fb13bb9-301c-4cc4-94f0-14cb374f341a">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
-        <Label>~AI32</Label>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>~DI8</Label>
         <Access>I</Access>
-        <DataType>Bitstring32</DataType>
-        <Offset>0.0</Offset>
+        <DataType>Bitstring8</DataType>
+        <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / ~AI32</DisplayName>
+        <DisplayName>dio-2 / ~DI8</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="08d07d2a-ab1e-4870-99a6-6b38cc94a218">
+    <Datum Uuid="dc3e21eb-84f8-4985-8c71-42b994f2b253">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=io0]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=iodpdout]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>~DO8</Label>
+        <Access>Q</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / ~DO8</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="bd0acc66-3b8c-4e0b-9ee7-93411c189b55">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io0]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN00</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN00</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="e34a25a5-50b4-4331-a983-eebf6036b1ec">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Label>IN01</Label>
         <Access>I</Access>
-        <DataType>Bitstring16</DataType>
-        <Offset>0.0</Offset>
+        <DataType>BOOL</DataType>
+        <Offset>1.1</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / IN01</DisplayName>
+        <DisplayName>dio-2 / IN01</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="c78625d8-0286-4833-91d7-d1f78949092e">
+    <Datum Uuid="1b9dca91-608f-4ef9-b9d7-130b052bae15">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io1]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io2]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Label>IN02</Label>
         <Access>I</Access>
-        <DataType>Bitstring16</DataType>
-        <Offset>2.0</Offset>
+        <DataType>BOOL</DataType>
+        <Offset>1.2</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / IN02</DisplayName>
+        <DisplayName>dio-2 / IN02</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="8dae6c9e-59d6-43ac-bb96-76b106ba5706">
+    <Datum Uuid="e4c7c9d4-e5df-4406-ac52-70fa175742b7">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io2]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
-        <Label>~AQ32</Label>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=io3]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN03</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.3</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN03</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="10d6bf8d-ede5-4256-a826-e18dd020a421">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=io4]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN04</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.4</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN04</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="bfea2d3d-362a-48e6-8042-38264318f9be">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=io5]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN05</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.5</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN05</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="d95f134d-ebe4-4801-a7bf-e24560e863d9">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=io6]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN06</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.6</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN06</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="8b624b9f-d352-4432-b40a-812cd2d0b4a6">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=io7]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>IN07</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.7</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / IN07</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="7038ea4f-9a90-4305-86c2-8eb2180fb65b">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=io8]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT00</Label>
         <Access>Q</Access>
-        <DataType>Bitstring32</DataType>
-        <Offset>0.0</Offset>
+        <DataType>BOOL</DataType>
+        <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / ~AQ32</DisplayName>
+        <DisplayName>dio-2 / OUT00</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="a635e674-0cce-4df0-a9cc-93508723e057">
+    <Datum Uuid="0aa0f1ef-4ea7-4df8-95a8-5104b65cea31">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io3]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=io9]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Label>OUT01</Label>
         <Access>Q</Access>
-        <DataType>Bitstring16</DataType>
-        <Offset>0.0</Offset>
+        <DataType>BOOL</DataType>
+        <Offset>1.1</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / OUT01</DisplayName>
+        <DisplayName>dio-2 / OUT01</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="2e5223ae-87a0-483f-b481-2eda3df005f0">
+    <Datum Uuid="179c8d53-dcbb-443f-bf5a-789f6cffac95">
       <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=io4]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=io10]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Label>OUT02</Label>
         <Access>Q</Access>
-        <DataType>Bitstring16</DataType>
-        <Offset>2.0</Offset>
+        <DataType>BOOL</DataType>
+        <Offset>1.2</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>aio-1 / OUT02</DisplayName>
+        <DisplayName>dio-2 / OUT02</DisplayName>
         <NodeId>1</NodeId>
-        <InputFrameId>2</InputFrameId>
-        <OutputFrameId>3</OutputFrameId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="0097df36-1c19-4507-bcf6-44375233598d">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=io11]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT03</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.3</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / OUT03</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="38b6a688-fe92-40f0-8b4c-d081e99f2c58">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=io12]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT04</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.4</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / OUT04</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="5cf19087-ea50-4cb0-ae26-03185a13a60b">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=io13]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT05</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.5</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / OUT05</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="78eb27d9-5b8a-436d-800a-ae5a78eaa70d">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=io14]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT06</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.6</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / OUT06</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="c637fa01-29e1-4e5b-b0dd-0b6b36b75d06">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="17" ObjectId="/PDList/PD[@uid=io15]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Label>OUT07</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.7</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>dio-2 / OUT07</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
     <Datum Uuid="5489664a-f329-452d-adde-816b07983405">
@@ -2721,13 +2889,13 @@
         <DisplayName>dio-1 / IN07</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="34073a10-e92b-4fc7-86dc-893a20de6142">
+    <Datum Uuid="414268fb-000d-49a3-a7d6-99504e43118d">
       <FunctionText />
-      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
-        <Name>~AQ32</Name>
-        <DataType>Bitstring32</DataType>
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=iodpdout]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>~DO8</Name>
+        <DataType>Bitstring8</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring32</PortDataType>
+        <PortDataType>Bitstring8</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2736,18 +2904,54 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>0.0</Offset>
+        <Offset>1.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / ~AQ32</DisplayName>
+        <DisplayName>dio-2 / ~DO8</DisplayName>
+      </Role>
+      <Role TypeName="OutPort" ObjectId="2d8a2e9c-4149-43d8-97c1-cf4008e79667" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>OutArray</Name>
+        <DataType>BYTE</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BYTE</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : OutArray</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="b6f8fb30-b2fb-4111-bdac-cd58ca524d46">
+    <Datum Uuid="340fea80-d69d-4cf6-926c-5ebd8a94810a">
       <FunctionText />
-      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io3]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io8]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT00</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / OUT00</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="527bc8bc-de9b-4795-b578-23256bf49b0c">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io9]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Name>OUT01</Name>
-        <DataType>Bitstring16</DataType>
+        <DataType>BOOL</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring16</PortDataType>
+        <PortDataType>BOOL</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2756,18 +2960,18 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>0.0</Offset>
+        <Offset>1.1</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / OUT01</DisplayName>
+        <DisplayName>dio-2 / OUT01</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="1ecfb4f7-56df-4f96-ba26-e986f4c2ab96">
+    <Datum Uuid="9c68e92c-c93a-4396-8721-0d02c226fb9a">
       <FunctionText />
-      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io4]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io10]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Name>OUT02</Name>
-        <DataType>Bitstring16</DataType>
+        <DataType>BOOL</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring16</PortDataType>
+        <PortDataType>BOOL</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2776,18 +2980,18 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>2.0</Offset>
+        <Offset>1.2</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / OUT02</DisplayName>
+        <DisplayName>dio-2 / OUT02</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="ee849f96-89c8-4b09-ac73-928c45ce1a74">
+    <Datum Uuid="f5926590-0d91-4a21-ad79-b894c60bfb19">
       <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
-        <Name>~AI32</Name>
-        <DataType>Bitstring32</DataType>
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io11]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT03</Name>
+        <DataType>BOOL</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring32</PortDataType>
+        <PortDataType>BOOL</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2796,18 +3000,138 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>0.0</Offset>
+        <Offset>1.3</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / ~AI32</DisplayName>
+        <DisplayName>dio-2 / OUT03</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="0db08588-4b0b-4c0f-b4e3-bbb716ea6dc9">
+    <Datum Uuid="5b094124-fa79-464c-8851-dd1653139f00">
       <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io12]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT04</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.4</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / OUT04</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="227a97bd-5c89-424e-9cb2-b780ace093ef">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io13]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT05</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.5</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / OUT05</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="35d8f528-5cbd-4157-90fc-4d5b73fe7951">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io14]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT06</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.6</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / OUT06</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="33a52831-82d1-469a-aba1-a677eeebad73">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io15]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>OUT07</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.7</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / OUT07</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="3868ef6f-d03f-4544-bd9e-883d7220e67e">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>~DI8</Name>
+        <DataType>Bitstring8</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring8</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / ~DI8</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="5e8ba770-d806-4c0a-a0ab-69f2e2ac5cc1">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN00</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN00</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="2880430a-623b-4fcc-bc64-98c8b6fe027f">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Name>IN01</Name>
-        <DataType>Bitstring16</DataType>
+        <DataType>BOOL</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring16</PortDataType>
+        <PortDataType>BOOL</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2816,18 +3140,18 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>0.0</Offset>
+        <Offset>1.1</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / IN01</DisplayName>
+        <DisplayName>dio-2 / IN01</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="70dea85e-d86b-4547-bcc2-e3fd17be6abf">
+    <Datum Uuid="a1a459d6-2cda-43c4-ae8c-b0cb6323ae65">
       <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="8b0e4e76-276f-4d3a-a230-60468d416f6e">
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
         <Name>IN02</Name>
-        <DataType>Bitstring16</DataType>
+        <DataType>BOOL</DataType>
         <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring16</PortDataType>
+        <PortDataType>BOOL</PortDataType>
         <PortMultiplicity>1</PortMultiplicity>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
@@ -2836,9 +3160,109 @@
         <IsRedundant>False</IsRedundant>
         <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
         <Program>Arp.Io.AxlC</Program>
-        <Offset>2.0</Offset>
+        <Offset>1.2</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>aio-1 / IN02</DisplayName>
+        <DisplayName>dio-2 / IN02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="df22e3bc-a4be-4867-9801-4281fc4e092d">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io3]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN03</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.3</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN03</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="c0a8371d-6922-4a41-b128-1586b35af032">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io4]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN04</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.4</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN04</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="c21314d5-81f9-451b-8f07-298b4abb794f">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io5]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN05</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.5</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN05</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="910a243a-3be7-4d8e-8f91-a91d31bbc946">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io6]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN06</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.6</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN06</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="bc071245-60c2-4586-8953-ee7bfe08d4a8">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io7]" SourceId="df768e97-0738-4fbc-85b9-ed7291239a13">
+        <Name>IN07</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.7</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>dio-2 / IN07</DisplayName>
       </Role>
     </Datum>
     <RoleGroupList RoleTypeName="Variable">

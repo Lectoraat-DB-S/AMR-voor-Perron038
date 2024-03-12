@@ -2,7 +2,7 @@ CASE PROGRAM_STATE OF
     0 :      (* Value can be a single value *)
         OUT1 := 1;
         OUT8 := 0;
-        PROGRAM_STATE := 1;       
+        PROGRAM_STATE := 1; 
     1 : 
     OUT2 := 1;
     OUT1 := 0;
@@ -34,3 +34,13 @@ CASE PROGRAM_STATE OF
     ELSE 
         PROGRAM_STATE := 0;
 END_CASE
+
+IF ZeroToTwoFiveFive < BYTE#16#FF THEN
+    OutArray := ZeroToTwoFiveFive;
+    TempIntByte := TO_INT(ZeroToTwoFiveFive);
+    TempIntByte := TempIntByte +2;
+    ZeroToTwoFiveFive := TO_BYTE(TempIntByte);
+ ELSIF ZeroToTwoFiveFive = BYTE#16#FF THEN
+    ZeroToTwoFiveFive := 0;
+    
+    END_IF
