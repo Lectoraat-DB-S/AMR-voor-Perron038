@@ -2421,7 +2421,7 @@
         <DisplayName>dio-1 / ~DO8</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="73de00db-70b4-46cd-b4bb-c81911a4e318">
+    <Datum Uuid="1f371912-e8d2-40b5-85c2-b703f69ebc2e">
       <FunctionText />
       <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io8]" SourceId="3d0365af-5f51-4def-b62a-c135f79c87f8">
         <Name>OUT00</Name>
@@ -2440,8 +2440,8 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT00</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="02ca2df7-207f-4162-8304-77a3575214c4" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT1</Name>
+      <Role TypeName="OutPort" ObjectId="b6bc2df3-7b74-440c-bd6f-e45073683e03" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_StepperFWD</Name>
         <DataType>BOOL</DataType>
         <PortDataTypeDomain>Iec</PortDataTypeDomain>
         <PortDataType>BOOL</PortDataType>
@@ -2454,7 +2454,7 @@
         <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
         <ProgramInstance>MainInstance</ProgramInstance>
         <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT1</DisplayName>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_StepperFWD</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="95eba192-799c-40fa-b248-0a16ff58513d">
@@ -2476,8 +2476,8 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT01</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="751fd9cf-6110-4fb5-bf24-2e7407e9e0a4" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT2</Name>
+      <Role TypeName="OutPort" ObjectId="cffe2b48-116a-48b8-bf9a-77987009f511" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_StepperBWD</Name>
         <DataType>BOOL</DataType>
         <PortDataTypeDomain>Iec</PortDataTypeDomain>
         <PortDataType>BOOL</PortDataType>
@@ -2490,7 +2490,7 @@
         <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
         <ProgramInstance>MainInstance</ProgramInstance>
         <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT2</DisplayName>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_StepperBWD</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="5e63c090-98b3-4e85-9d00-6fdbda0d6768">
@@ -2512,8 +2512,8 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT02</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="1d647fd3-1582-4147-95a6-f4f00d6e8052" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT3</Name>
+      <Role TypeName="OutPort" ObjectId="65d11424-6a13-4d35-bdd7-1d978646930d" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_PickUpRoutineDone</Name>
         <DataType>BOOL</DataType>
         <PortDataTypeDomain>Iec</PortDataTypeDomain>
         <PortDataType>BOOL</PortDataType>
@@ -2526,7 +2526,7 @@
         <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
         <ProgramInstance>MainInstance</ProgramInstance>
         <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT3</DisplayName>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_PickUpRoutineDone</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="af08a5ac-7d1e-42b4-8cd2-b7f5e56a4f29">
@@ -2548,22 +2548,6 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT03</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="5aa21672-62e5-4ca8-b102-e42599dbb161" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT4</Name>
-        <DataType>BOOL</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BOOL</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT4</DisplayName>
-      </Role>
     </Datum>
     <Datum Uuid="e9666e95-a992-46e3-99bc-a88b5a357557">
       <FunctionText />
@@ -2583,22 +2567,6 @@
         <Offset>1.4</Offset>
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT04</DisplayName>
-      </Role>
-      <Role TypeName="OutPort" ObjectId="d0d892dc-0bc1-402e-8fc9-4314414edd3d" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT5</Name>
-        <DataType>BOOL</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BOOL</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT5</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="27375128-e607-45f0-9f33-494bc2dd48b5">
@@ -2620,22 +2588,6 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT05</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="540aa851-9016-423d-8578-935f98a406e5" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT6</Name>
-        <DataType>BOOL</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BOOL</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT6</DisplayName>
-      </Role>
     </Datum>
     <Datum Uuid="ce36c5de-6530-4022-be25-249dacabd3cb">
       <FunctionText />
@@ -2656,22 +2608,6 @@
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT06</DisplayName>
       </Role>
-      <Role TypeName="OutPort" ObjectId="ceabea61-39ef-40aa-b640-9069af6706bc" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT7</Name>
-        <DataType>BOOL</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BOOL</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT7</DisplayName>
-      </Role>
     </Datum>
     <Datum Uuid="26d56b37-5794-4168-b0ab-7f071d2824fe">
       <FunctionText />
@@ -2691,22 +2627,6 @@
         <Offset>1.7</Offset>
         <NodeId>0</NodeId>
         <DisplayName>dio-1 / OUT07</DisplayName>
-      </Role>
-      <Role TypeName="OutPort" ObjectId="315c524d-43d8-41fe-a779-0bb04abedcde" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OUT8</Name>
-        <DataType>BOOL</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BOOL</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OUT8</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="4581dc1e-4148-4eb9-bfc5-a069360866be">
@@ -2907,22 +2827,6 @@
         <Offset>1.0</Offset>
         <NodeId>1</NodeId>
         <DisplayName>dio-2 / ~DO8</DisplayName>
-      </Role>
-      <Role TypeName="OutPort" ObjectId="2d8a2e9c-4149-43d8-97c1-cf4008e79667" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
-        <Name>OutArray</Name>
-        <DataType>BYTE</DataType>
-        <PortDataTypeDomain>Iec</PortDataTypeDomain>
-        <PortDataType>BYTE</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <IsRedundant>False</IsRedundant>
-        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
-        <ProgramInstance>MainInstance</ProgramInstance>
-        <Program>Arp.Plc.Eclr / MainInstance</Program>
-        <DisplayName>Arp.Plc.Eclr / MainInstance : OutArray</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="340fea80-d69d-4cf6-926c-5ebd8a94810a">
@@ -3263,6 +3167,158 @@
         <Offset>1.7</Offset>
         <NodeId>1</NodeId>
         <DisplayName>dio-2 / IN07</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="fe3f5258-30ed-4668-89d9-59142874f48d">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="a132afdf-7d4a-4694-8887-666ced1c14f5" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_PickupRoutineStart</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_PickupRoutineStart</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="059db786-133b-4a6c-8d9d-6b5f2ae70537">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="78d82cd3-8bec-4c09-bee8-a4a0bddc827c" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_EndStopFWD</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_EndStopFWD</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="a0937ca3-60e2-4303-95e7-066d162cc592">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="c2e47920-08ad-441b-b4bd-ffc099c79925" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_EndStopBWD</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_EndStopBWD</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="f3d01b61-d8b7-473a-9373-624f40d537e6">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="61e66f29-1843-41ca-a825-bd3ca302546b" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_PlateDetection</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_PlateDetection</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="bf0dec7b-b863-4888-891e-5cfddccfb511">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="f7f36768-27e0-4796-89b2-ba5d87e25f23" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_EndStopDown</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_EndStopDown</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="abc5225d-b4b0-4cfc-a044-37368afb8af4">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="73dba032-c7e7-4490-9093-c2f74e27b38c" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_EndStopUp</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_EndStopUp</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="1a1d1927-6bf9-4293-b6b3-8bb1ecc33419">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="c7774938-567b-4759-9f48-8559d0d04e8e" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_StepperUp</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_StepperUp</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="424dedb5-d1c2-4ef8-b0a6-8954a4ba8513">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="c11696e9-c8cb-4acc-b88f-b88da3efb902" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_StepperDown</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_StepperDown</DisplayName>
       </Role>
     </Datum>
     <RoleGroupList RoleTypeName="Variable">

@@ -2,15 +2,17 @@
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
 VAR_CONFIG
-    MainInstance.OUT1 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('02ca2df7-207f-4162-8304-77a3575214c4')};
-    MainInstance.OUT2 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('751fd9cf-6110-4fb5-bf24-2e7407e9e0a4')};
-    MainInstance.OUT3 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1d647fd3-1582-4147-95a6-f4f00d6e8052')};
-    MainInstance.OUT4 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5aa21672-62e5-4ca8-b102-e42599dbb161')};
-    MainInstance.OUT5 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d0d892dc-0bc1-402e-8fc9-4314414edd3d')};
-    MainInstance.OUT6 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('540aa851-9016-423d-8578-935f98a406e5')};
-    MainInstance.OUT7 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ceabea61-39ef-40aa-b640-9069af6706bc')};
-    MainInstance.OUT8 : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('315c524d-43d8-41fe-a779-0bb04abedcde')};
-    MainInstance.OutArray : BYTE { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('2d8a2e9c-4149-43d8-97c1-cf4008e79667')};
+    MainInstance.i_PickupRoutineStart : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a132afdf-7d4a-4694-8887-666ced1c14f5')};
+    MainInstance.q_StepperFWD : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b6bc2df3-7b74-440c-bd6f-e45073683e03')};
+    MainInstance.i_EndStopFWD : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('78d82cd3-8bec-4c09-bee8-a4a0bddc827c')};
+    MainInstance.q_StepperBWD : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('cffe2b48-116a-48b8-bf9a-77987009f511')};
+    MainInstance.i_EndStopBWD : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c2e47920-08ad-441b-b4bd-ffc099c79925')};
+    MainInstance.i_PlateDetection : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('61e66f29-1843-41ca-a825-bd3ca302546b')};
+    MainInstance.q_PickUpRoutineDone : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('65d11424-6a13-4d35-bdd7-1d978646930d')};
+    MainInstance.i_EndStopDown : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f7f36768-27e0-4796-89b2-ba5d87e25f23')};
+    MainInstance.i_EndStopUp : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('73dba032-c7e7-4490-9093-c2f74e27b38c')};
+    MainInstance.q_StepperUp : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c7774938-567b-4759-9f48-8559d0d04e8e')};
+    MainInstance.q_StepperDown : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c11696e9-c8cb-4acc-b88f-b88da3efb902')};
 END_VAR
 
 VAR_GLOBAL

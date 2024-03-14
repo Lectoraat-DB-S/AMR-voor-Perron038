@@ -5,18 +5,22 @@ VAR RETAIN
 END_VAR
 
 VAR_GLOBAL
-    OUT1 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('2bab33f7-f260-40d8-a000-96e80f64da94')};
-    OUT2 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('e7e4b073-3849-4d5d-82fd-15c29c8e4bee')};
-    OUT3 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('f173eb72-2842-4be4-9912-7772dba7ba2d')};
-    OUT4 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('3e69ede1-6578-4116-927d-83b549d02962')};
-    OUT5 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('25273ec1-7b01-489e-be20-12b6b89065ac')};
-    OUT6 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('05f31fef-cf27-4d79-b7a0-a723bc4cf41e')};
-    OUT7 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('e216e0cd-00c0-423d-8aac-62419bf5d449')};
-    OUT8 : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('e2eb22cb-6525-45ac-8705-c675bf818350')};
-    OutArray : BYTE { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('25a655d1-e7f2-4392-ac1e-3464926371d1')};
+    i_PickupRoutineStart : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('4da42830-9f4c-47e6-bb80-b9935e1cf172')};
+    q_StepperFWD : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('dc2478cf-1dfa-43e7-a621-0fb7544d9856')};
+    i_EndStopFWD : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('2bf41e83-dc5e-47e5-b09d-7c8bbf6bef43')};
+    q_StepperBWD : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('c1ebacc9-92d0-4c8e-a7e9-bed3afb6f192')};
+    i_EndStopBWD : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('792c64a5-9b75-479b-bb92-365e3345908f')};
+    i_PlateDetection : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('b55fa80c-311b-49e3-b847-a89e15b81d36')};
 END_VAR
 
 VAR
-    ZeroToTwoFiveFive : BYTE { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('99dc17b5-075d-4795-b68c-3ee6c462828b')};
-    TempIntByte : INT { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('d8951eb0-06b3-4df2-8783-11fe9f56cf03')};
+    t_PlateDetectionTimeOut : TON { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('f1366327-c422-442f-b6ac-5d19615ca5f1')};
+END_VAR
+
+VAR_GLOBAL
+    q_PickUpRoutineDone : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('44b964bd-754a-42fb-927b-f8642c2e4fab')};
+    i_EndStopDown : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('15a39d65-d6b5-4d01-ade1-e3629f1401bd')};
+    i_EndStopUp : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('c8b83d0f-434d-4684-8401-939c8934da0c')};
+    q_StepperUp : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('63c9ece3-47c6-49c3-a0c5-8039e468e9b5')};
+    q_StepperDown : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('87f8ec2a-3d62-446c-a3f2-8f19c874b250')};
 END_VAR

@@ -25,7 +25,7 @@ RESOURCE IEC 61131-3
 )}
 
 
-TASK Cyclic100 (INTERVAL := T#200ms, PRIORITY := 0) { Watchdog(T#100ms), Id('d61de715-4e5a-46e1-b3ac-e88a9a8d3058') };
+TASK Cyclic100 () { Watchdog(T#100ms), Id('d61de715-4e5a-46e1-b3ac-e88a9a8d3058') };
 
 PROGRAM MainInstance WITH Cyclic100 : Main { Id('6c4edf50-9cac-4ec8-abeb-b7c888db6842') };
 
