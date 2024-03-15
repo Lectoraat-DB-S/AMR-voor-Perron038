@@ -24,3 +24,13 @@ VAR_GLOBAL
     q_StepperUp : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('63c9ece3-47c6-49c3-a0c5-8039e468e9b5')};
     q_StepperDown : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('87f8ec2a-3d62-446c-a3f2-8f19c874b250')};
 END_VAR
+
+VAR
+    PROGRAM_SELECT : INT { CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('0eb23c80-874d-4f66-bedc-738793b5fde0')};
+END_VAR
+
+VAR_GLOBAL
+    i_DropOffRoutineStart : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('c6102bf6-af99-43c2-9006-4b19a8f832e7')};
+    q_DropOffRoutineDone : BOOL { OutputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('54f15c0a-9a27-41d3-8eb9-d21d15346234')};
+    i_EndStopFWDShort : BOOL { InputPort, CustomGroupReference('782d6ed6-c202-4c4a-973b-177505abd773') } {Id('5a770802-67aa-41b3-950e-6119ba675080')};
+END_VAR

@@ -3321,6 +3321,63 @@
         <DisplayName>Arp.Plc.Eclr / MainInstance : q_StepperDown</DisplayName>
       </Role>
     </Datum>
+    <Datum Uuid="788412ce-bf35-445f-b28d-a694f0f516b5">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="2807c483-b708-4da3-977f-956a7355e9b0" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_DropOffRoutineStart</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_DropOffRoutineStart</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="1e8dfde3-a7f4-485e-bd86-89503741bac5">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="95263404-ab35-456b-be56-7aa0946569d7" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>q_DropOffRoutineDone</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : q_DropOffRoutineDone</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="11084519-fe91-4661-abca-461389d731e3">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="40f89350-698a-4a3f-b9b6-784c7d8a6305" SourceId="49232636-c7c0-4854-ad5e-4453b849e395.L7_2">
+        <Name>i_EndStopFWDShort</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+        <DisplayName>Arp.Plc.Eclr / MainInstance : i_EndStopFWDShort</DisplayName>
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e3bca5dc-ceef-4dc3-9cad-e9f38d18b915" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False" />
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e3bca5dc-ceef-4dc3-9cad-e9f38d18b915" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">

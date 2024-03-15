@@ -13,6 +13,9 @@ VAR_CONFIG
     MainInstance.i_EndStopUp : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('73dba032-c7e7-4490-9093-c2f74e27b38c')};
     MainInstance.q_StepperUp : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c7774938-567b-4759-9f48-8559d0d04e8e')};
     MainInstance.q_StepperDown : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c11696e9-c8cb-4acc-b88f-b88da3efb902')};
+    MainInstance.i_DropOffRoutineStart : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('2807c483-b708-4da3-977f-956a7355e9b0')};
+    MainInstance.q_DropOffRoutineDone : BOOL { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('95263404-ab35-456b-be56-7aa0946569d7')};
+    MainInstance.i_EndStopFWDShort : BOOL { ProgramGlobal, InputPort, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('40f89350-698a-4a3f-b9b6-784c7d8a6305')};
 END_VAR
 
 VAR_GLOBAL

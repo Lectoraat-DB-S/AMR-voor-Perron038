@@ -166,6 +166,10 @@
          <TypeRevision>02/1.00</TypeRevision>
          <ParentIndex>1</ParentIndex>
       </Folder>
+      <Folder Include="Logic Analyzer">
+         <Id>fe9bdb52-94cd-4283-8148-6bb808167d77</Id>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
    </ItemGroup>
    <ItemGroup>
       <TopologyDocument Include="Hardware\4ba9dc88-7c22-47f0-8c74-cae6f4440192.topology">
@@ -639,6 +643,10 @@
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logic Analyzer\Document.lga">
+         <Id>d5240cdc-c984-4ad0-b119-f7c4ee44a879</Id>
+         <ParentIndex>0</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
