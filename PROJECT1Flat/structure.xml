@@ -24,6 +24,9 @@
           <folder name="AXL_F_DI8_1_DO8_1_1H1">
             <file name="df768e97-0738-4fbc-85b9-ed7291239a13.ds" id="AXL_F_DI8~df768e97-0~0000.ds" />
           </folder>
+          <folder name="AXL_F_PWM2_1H">
+            <file name="477c0859-12bc-4d48-9de5-5d346f747998.ds" id="AXL_F_PWM~477c0859-1~0000.ds" />
+          </folder>
         </folder>
         <folder name="EIP_Master">
           <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0000.libmeta" />
@@ -72,6 +75,10 @@
         <file name="Variables.var.locres" id="Main.pou~Variables.v~0000.locres" />
         <file name="User.locres" id="Main.pou~User~0000.locres" />
         <file name="Code.st" id="Main.pou~Code~0000.st" />
+      </folder>
+      <folder name="pwm-1_AXL_F_PWM2_1H.det">
+        <file name="DeviceTemplateScript.pcustx" id="pwm-1_AXL~DeviceTemp~0000.pcustx" />
+        <file name="DeviceTemplateMetadata.detmeta" id="pwm-1_AXL~DeviceTemp~0001.detmeta" />
       </folder>
     </folder>
     <folder name="Logic Analyzer" />

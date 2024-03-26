@@ -168,7 +168,24 @@
       </Folder>
       <Folder Include="Logic Analyzer">
          <Id>fe9bdb52-94cd-4283-8148-6bb808167d77</Id>
+         <FolderType></FolderType>
          <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H">
+         <Id>998f80c8-1842-4310-bd3f-79b1330fc504</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>477c0859-12bc-4d48-9de5-5d346f747998</InstanceId>
+         <TypeId>{7f50e6a2-e9cc-4cde-b2c5-ce8fe41280b1}</TypeId>
+         <TypeName>AXL F PWM2 1H</TypeName>
+         <TypeRevision>01/1.10</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\pwm-1_AXL_F_PWM2_1H.det">
+         <Id>dcd11573-0f67-4fce-9a6d-99407f071cff</Id>
+         <FolderType>DeviceTemplate</FolderType>
+         <RootTypeDefinitionUri>adeproject:///Axiocontrol/PROJECT.proj/Logical Elements/AXL F PWM2 1Hv01_1.10.fdcml</RootTypeDefinitionUri>
+         <ParentIndex>2</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -324,6 +341,11 @@
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H\477c0859-12bc-4d48-9de5-5d346f747998.ds">
+         <Id>66858c18-3d60-43ab-a625-502f3b21a028</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
    </ItemGroup>
    <ItemGroup>
       <DataList Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\DataList.dl">
@@ -355,6 +377,11 @@
          <Visible>False</Visible>
          <ParentIndex>1</ParentIndex>
       </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H\477c0859-12bc-4d48-9de5-5d346f747998.properties">
+         <Id>37f1dc24-67b4-45bb-ab0e-666e7b844be1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
    </ItemGroup>
    <ItemGroup>
       <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\49232636-c7c0-4854-ad5e-4453b849e395.iprop">
@@ -380,7 +407,7 @@
       <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\49232636-c7c0-4854-ad5e-4453b849e395.L7_ax.iprop">
          <Id>809de2ce-ffec-4c80-8514-5e00c655c33a</Id>
          <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\IB_Master\49232636-c7c0-4854-ad5e-4453b849e395.L7_8.iprop">
          <Id>8488f36e-d24c-4b73-9562-4ae215bba271</Id>
@@ -399,6 +426,11 @@
       </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\df768e97-0738-4fbc-85b9-ed7291239a13.iprop">
          <Id>e13a6dc9-49eb-4cb0-b549-8e655f912fd6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H\477c0859-12bc-4d48-9de5-5d346f747998.iprop">
+         <Id>3667e09e-7764-4afc-a2e3-3203360a9057</Id>
          <Visible>False</Visible>
          <ParentIndex>0</ParentIndex>
       </InstancePropertiesDocument>
@@ -439,7 +471,7 @@
       <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\DataList.dlr4pd">
          <Id>5016ae4e-2c72-4637-b54e-22325c815824</Id>
          <Visible>false</Visible>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\IB_Master\DataList.dlr4pd">
          <Id>5d4709fe-4b4e-469a-befb-cb71901dd25d</Id>
@@ -458,6 +490,11 @@
       </DataListReference>
       <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_DI8_1_DO8_1_1H1\DataList.dlr4pd">
          <Id>62d7371d-0713-49fa-954c-03a666dd8f90</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H\DataList.dlr4pd">
+         <Id>270f6d95-6bf1-45b7-829b-14daaf9eaf96</Id>
          <Visible>false</Visible>
          <ParentIndex>4</ParentIndex>
       </DataListReference>
@@ -508,7 +545,7 @@
       <MetaLibrary Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\Arp.Io.Axl.libmeta">
          <Id>37adfebc-9470-4e84-907f-c79ec8045a23</Id>
          <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\IB_Master\Arp.Io.Ib.libmeta">
          <Id>9c91ddb0-3595-45be-8424-fd8b8f1bb6b1</Id>
@@ -540,7 +577,7 @@
       <MetaComponent Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\Arp.Io.Axl.ControllerComponent.compmeta">
          <Id>3eca9f18-cb6e-492f-8e54-a6c5103c50e0</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </MetaComponent>
       <MetaComponent Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\IB_Master\Arp.Io.Ib.ControllerComponent.compmeta">
          <Id>4e1340c9-c794-4d30-86af-6cb5754c8560</Id>
@@ -590,7 +627,7 @@
       <StationDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\49232636-c7c0-4854-ad5e-4453b849e395.L7_ax.station">
          <Id>b3f90bfb-dc40-4576-9356-6930789f94a7</Id>
          <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </StationDocument>
       <StationDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\IB_Master\49232636-c7c0-4854-ad5e-4453b849e395.L7_8.station">
          <Id>5d8f473b-9bfc-42c3-9780-7b711a5195ef</Id>
@@ -662,5 +699,23 @@
          <ProtocolName>AXLF</ProtocolName>
          <ParentIndex>2</ParentIndex>
       </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_11826D48EAC94E0BA3FAD353D0757D55\AXLF_Master\AXL_F_PWM2_1H\477c0859-12bc-4d48-9de5-5d346f747998.par">
+         <Id>e7f49be6-6d91-4d62-b295-ee742242b61f</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceTemplateScript Include="Logical Elements\pwm-1_AXL_F_PWM2_1H.det\DeviceTemplateScript.pcustx">
+         <Id>9c8edf15-d45c-494b-879f-2ae820b7d786</Id>
+         <ParentIndex>0</ParentIndex>
+      </DeviceTemplateScript>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceTemplateMetadata Include="Logical Elements\pwm-1_AXL_F_PWM2_1H.det\DeviceTemplateMetadata.detmeta">
+         <Id>eed91de3-4cd5-411d-bc99-997ed82c0caf</Id>
+         <ParentIndex>1</ParentIndex>
+      </DeviceTemplateMetadata>
    </ItemGroup>
 </Project>
