@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Metadata>
-   <UsedDevices>
-      <UsedDevice Name="AXL F PWM2 1H" TypeUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/d83e72bc-eb53-4047-b779-a70756c8a100/7f50e6a2-e9cc-4cde-b2c5-ce8fe41280b1" Default="true" Safety="false" />
-   </UsedDevices>
-</Metadata>
